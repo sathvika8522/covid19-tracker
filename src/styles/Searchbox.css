@@ -1,0 +1,66 @@
+.main
+{
+    width: 100%;
+    height: 75vh;
+    background:url('https://cdn.pixabay.com/photo/2020/03/08/23/23/coronavirus-4914026_960_720.jpg') center center;
+    background-size: cover;
+    position: relative;
+}
+.main::before
+{
+    content: "";
+    background:rgba(0,0,0, 0.5) ;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+h4
+{
+    font-family: 'Festive';
+    font-family:  'cursive';
+    font-family: 'Uchen', 'serif';
+    font-size: 40px;
+}
+
+input
+{
+    display: block;
+    margin: auto;
+    border: 3px solid rgb(158, 148, 150);
+    background-color: rgba(0,0,0, 0.5) ;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+    border-radius: 30px;
+    padding: 7px;
+    color:white
+}
+
+input:focus
+{
+   background-color:#fff ;
+   outline: 3px solid pink;
+   color: black;
+}
+
+.btn
+{
+    width: 30vw;
+    background-color: pink;
+    color: black;
+    font-weight: bolder;
+    border: 2px solid purple;
+    border-radius: 20px;
+    display: block;
+    margin: auto;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+
+form
+{
+    padding-top: 20vh;
+    position: relative;
+    display: block;
+    margin: auto;
+}
